@@ -1,0 +1,23 @@
+userInfo:
+  result: 
+    openId: 123
+    mobileNumber: 321
+    nickName: 11
+    headImgUrl: 2222
+
+wxQRcode:
+  status: success
+  result:
+    showQRcodeUrl: http://articles.csdn.net/uploads/allimg/160520/1AHAU6-1.JPG # 关注的url
+
+# 未登录    MARKET_API_WX_PAY_INFO_002 | MARKET_WEIXIN_APP_008  
+# 关注公众号    MARKET_WEIXIN_APP_009
+# 抽奖3次  MARKET_WEIXIN_APP_011
+# 已中奖   MARKET_WEIXIN_APP_012 
+luckDraw:
+  status: success
+  code: success
+  result:
+    prizeGrade: 1 # 奖券等级
+    luckyDraw: true # 是否中奖
+    prizeName: '一等奖' # 中奖奖品
